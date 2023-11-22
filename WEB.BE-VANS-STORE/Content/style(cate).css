@@ -218,6 +218,67 @@ h1 {
     float: right;
 }
 
+
+
+
+.block {
+    position: relative;
+    color: white;
+    display: inline-block;
+}
+
+/* button { */
+.nut {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: red;
+    color: white;
+    padding: 10px 100px;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.containers {
+    position: relative;
+}
+
+.card {
+    display: flex;
+}
+
+.qualai button {
+    position: absolute;
+    height: 50px;
+}
+
+.qualai {
+    display: flex;
+    align-items: center;
+}
+/* button { */
+.nut {
+    display: none;
+}
+
+.block:hover {
+    opacity: 70%;
+}
+
+    .block:hover button {
+        display: block;
+        justify-content: center;
+    }
+
+button:hover {
+    background-color: blue;
+}
+
+
+
+
 .Pro-menu img {
     height: 265px;
     width: 265px;
